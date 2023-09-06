@@ -4,8 +4,8 @@
   "description": "Example of how to deploy a Express.js Netlify app.",
   "main": "functions/server.js",
   "scripts": {
-    "build": "NODE_OPTIONS='--openssl-legacy-provider' netlify-lambda build express",
-    "start": "NODE_OPTIONS='--openssl-legacy-provider' nodemon server-local.js"
+    "build": "netlify-lambda build express",
+    "start": "nodemon server-local.js"
   },
   "repository": {
     "type": "git",
