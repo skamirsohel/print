@@ -1,6 +1,10 @@
 [build]
-  functions = "functions"
+  command = "npm run build"
+  publish = "/build"
+  base ="/"
 
-[dev]
-  publish = "dist"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
