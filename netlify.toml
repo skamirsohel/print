@@ -2,6 +2,9 @@
   command = "npm run build"
   publish = "/build"
   base ="/"
+  
+[dev]
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
