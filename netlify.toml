@@ -1,8 +1,7 @@
 [build]
-  functions = "functions"
- 
-  # This is the directory is publishing to netlify's CDN
-  publish = "dist"
+  command = "npm run build"
+  functions = "lambda" #  netlify-lambda reads this
+  publish = "build
 
 [dev]
   # Local dev command. A.k.a npm start 
